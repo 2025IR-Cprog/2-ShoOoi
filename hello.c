@@ -3,5 +3,5 @@
 int main()
 {
   printd("hello world");
-  reutrn 0;
+  return 0;
 }
