@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+echo "PWD=$(pwd)"; ls -la
 
 # 実行して出力を比較（末尾改行も厳密にチェック）
 ./hello > actual.txt
